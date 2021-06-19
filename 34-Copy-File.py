@@ -13,7 +13,6 @@ class copy():
                 print("oOps file dosent found,please check your input and try again")
                 self.address = input("please enter address: ")
                 continue
-        f = open(self.address)
         copy = f.read()
         with open (self.new,"a") as c:
             c.write(copy) 
