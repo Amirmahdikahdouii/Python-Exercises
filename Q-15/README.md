@@ -13,7 +13,44 @@
 </pre>
 <h1 dir='rtl'>خروجی: </h1>
 <pre dir='rtl'>
-    در تنها خط خروجی شماره رشته‌هایی (بر حسب شماره خط آنها در ورودی) را به ترتیب صعودی چاپ کنید که شامل زیر رشته‌‌هایی برابر با MOLANA یا HAFEZ و یا هر دو باشند. اگر چنین رشته ای وجود نداشت، در خروجی عبارت 
+    در تنها خط خروجی شماره رشته‌هایی (بر حسب شماره خط آنها در ورودی) را به ترتیب صعودی چاپ کنید که شامل 
+    زیر رشته‌‌هایی برابر با MOLANA یا HAFEZ و یا هر دو باشند. اگر چنین رشته ای وجود نداشت، در خروجی عبارت 
     <span dir='ltr'>NOT FOUND!</span> را چاپ کنید.
 </pre>
-<a href="https://quera.org/problemset/10231/">لینک سوال</a>
+<h3 dir='rtl'>ورودی نمونه: </h3>
+<pre>
+    N-MOLANA1
+    9A-UKOK
+    SAYE-NTERP
+    G-SANAEI
+    RF-MOLLASADRA 
+</pre>
+<h3 dir='rtl'>خروجی نمونه: </h3>
+<pre>
+    1
+</pre>
+<h3 dir='rtl'>ورودی نمونه: </h3>
+<pre>
+    N321-HAFEEZ
+    F3-B12I
+    F-BI-12
+    OVO-JE-FE
+    KASHANI 
+</pre>
+<h3 dir='rtl'>خروجی نمونه: </h3>
+<pre>
+    NOT FOUND!
+</pre>
+<h3 dir='rtl'>ورودی نمونه: </h3>
+<pre>
+    47-MOLANA
+    BOND-007
+    RF-MOLANA18
+    MARICA-13
+    13A-HAFEZLL
+</pre>
+<h3 dir='rtl'>خروجی نمونه: </h3>
+<pre>
+    1 &nbsp; 3 &nbsp; 5
+</pre>
+<a dir='rtl' href="https://quera.org/problemset/10231/">لینک سوال</a>
