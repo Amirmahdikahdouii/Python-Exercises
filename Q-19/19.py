@@ -1,7 +1,9 @@
+# Dominating Number
 number = int(input())
+halfOfCountDigits = 0
 for i in range(10, 0, -1):
     if number > (10**i):
-        p = (i+1)//2
+        halfOfCountDigits = (i+1)//2
         break
 while number != 0:
     r = number % 10
@@ -16,7 +18,7 @@ while number != 0:
             count += 1
         else:
             new_number = (new_number*10) + nr
-    if count > p:
+    if count > halfOfCountDigits:
         print("YES")
         break
     number = new_number
