@@ -1,3 +1,4 @@
+# Dighit Power Sum
 number = int(input())
 c_number = number
 sum_of_nums = 0
