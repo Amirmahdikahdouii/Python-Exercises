@@ -1,3 +1,4 @@
+# Pandigital Prime Number
 counter = int(input())
 for number in range((10**counter)-1, 10**(counter-1), -2):
     flag = True
@@ -8,10 +9,10 @@ for number in range((10**counter)-1, 10**(counter-1), -2):
     if not flag:
         continue
     c_number = number
-    while number != 0:
-        r = number % 10
-        number //= 10
-        c_num = number
+    while c_number != 0:
+        r = c_number % 10
+        c_number //= 10
+        c_num = c_number
         while c_num != 0:
             nr = c_num % 10
             c_num //= 10
@@ -19,5 +20,5 @@ for number in range((10**counter)-1, 10**(counter-1), -2):
                 flag = False
                 break
     if flag:
-        print(c_number)
+        print(number)
         break
