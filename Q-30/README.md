@@ -17,22 +17,22 @@ b برابر طول آجر خواهد بود.
 
 ### Samples
 
-`sample1 Input:`
+**sample1 Input:**
 
 ```5 2```
 
-`sample1 output:`
+**sample1 output:**
 
 
 ```1```
 
-`sample2 Input:`
+**sample2 Input:**
 
 
 ```10 8```
 
-`sample2 output:`
+**sample2 output:**
 
 ```2```
 
-`سوال اول مسابقات icpc دانشگاه شریف سال 1401`
+**سوال اول مسابقات icpc دانشگاه شریف سال 1401**
