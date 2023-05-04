@@ -1,9 +1,9 @@
 def convert_to_binary(number):
     """ Convert Number from base 10 into base 2 """
-    
-    if number == 0:
-        return ""
-    return f"{convert_to_binary(number//2)}{number%2}"
+
+    if number // 2 == 0:
+        return number % 2
+    return (convert_to_binary(number//2) * 10) + (number % 2)
 
 a = int(input("Please Enter Records Count: "))
 b = int(input("Please Enter Sells Count: "))
