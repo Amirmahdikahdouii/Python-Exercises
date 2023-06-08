@@ -14,7 +14,7 @@ for i in range(n+1):
             matrix[i][j] = matrix[i-1][j]
 output_matrix = [[i, 0] for i in range(1, n+1)]
 count = 0
-while m != 0:
+while m != 0 or n != 0:
     if matrix[n][m] != matrix[n-1][m]:
         count += 1
         m -= matrix_weight_value[n][0]
