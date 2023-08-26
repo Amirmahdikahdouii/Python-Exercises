@@ -3,8 +3,6 @@ def get_numbers(numbers, min_limit, max_limit):
     max_check = lambda val: True if max_limit is None else max_limit >= val
     return sorted([num for num in numbers if min_check(num) and max_check(num)])
 
-# import random
-# print([random.randint(0, 1000) for i in range(10)])
 numbers = list(map(int, input().split(",")))
 
 min_limit = input()
