@@ -4,7 +4,8 @@ def sort_numbers(numbers: list):
     for _ in range(len(numbers)):
         for i, (number1, number2) in enumerate(zip(numbers, numbers[1:])):
             if number1 > number2:
-                numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
+                numbers[i] -= number1 - number2
+                numbers[i+1] += number1 - number2
     return numbers
 
 
