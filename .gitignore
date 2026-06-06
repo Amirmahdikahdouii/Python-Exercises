@@ -3,3 +3,5 @@ public/
 .hugo_build.lock
 resources/
 _website_staging/
+__pycache__/
+.cursor/
