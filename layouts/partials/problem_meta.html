@@ -1,0 +1,18 @@
+{{- $p := .Params -}}
+{{- if $p.problem_id -}}
+<div class="problem-meta">
+  <span class="problem-badge">#{{ printf "%03d" (int $p.problem_id) }}</span>
+  {{- with $p.language -}}<span class="problem-badge">{{ . }}</span>{{- end -}}
+  {{- with .Params.difficulties -}}
+    {{- range . -}}<span class="problem-badge"><a href="{{ "/difficulties/" | absURL }}{{ . | urlize }}/">{{ . }}</a></span>{{- end -}}
+  {{- end -}}
+  {{- with .Params.categories -}}
+    {{- range . -}}<span class="problem-badge"><a href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a></span>{{- end -}}
+  {{- end -}}
+</div>
+<div class="problem-links">
+  {{- with $p.github_readme -}}<a href="{{ . }}" target="_blank" rel="noopener">README در GitHub</a>{{- end -}}
+  {{- with $p.github_solution -}}<a href="{{ . }}" target="_blank" rel="noopener">راه‌حل در GitHub</a>{{- end -}}
+  {{- with $p.source_url -}}<a href="{{ . }}" target="_blank" rel="noopener">منبع سوال</a>{{- end -}}
+</div>
+{{- end -}}

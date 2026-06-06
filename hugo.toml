@@ -1,0 +1,62 @@
+baseURL = "https://amirmahdikahdouii.github.io/Python-Exercises/"
+title = "Python Exercises"
+theme = "PaperMod"
+languageCode = "fa-ir"
+defaultContentLanguage = "fa"
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 20
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  difficulty = "difficulties"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "Algorithm exercises from beginner to advanced with Python solutions"
+  author = "Amirmahdikahdouii"
+  ShowReadingTime = false
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  disableSpecial1stPost = true
+
+  [params.homeInfoParams]
+    Title = "Python Exercises"
+    Content = "مجموعه‌ای از مسائل الگوریتمی از مبتدی تا پیشرفته — با راه‌حل پایتون. Algorithm exercises from beginner to advanced."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Amirmahdikahdouii/Python-Exercises"
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "دسته‌بندی"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "difficulties"
+    name = "سطح دشواری"
+    url = "/difficulties/"
+    weight = 20
+  [[menu.main]]
+    identifier = "problems"
+    name = "همه مسائل"
+    url = "/problems/"
+    weight = 30
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/Amirmahdikahdouii/Python-Exercises"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false

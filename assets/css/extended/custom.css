@@ -1,0 +1,47 @@
+/* RTL support for Persian problem statements */
+.post-content[dir="rtl"],
+.rtl-content {
+    direction: rtl;
+    text-align: right;
+}
+
+.post-content[dir="rtl"] pre,
+.post-content[dir="rtl"] code {
+    direction: ltr;
+    text-align: left;
+}
+
+.problem-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.problem-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: var(--tertiary);
+    color: var(--primary);
+}
+
+.problem-badge a {
+    color: inherit;
+}
+
+.problem-links {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.problem-links a {
+    margin-left: 1rem;
+}
+
+.problem-links a:first-child {
+    margin-left: 0;
+}
