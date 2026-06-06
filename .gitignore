@@ -1,1 +1,5 @@
 .vscode/
+public/
+.hugo_build.lock
+resources/
+_website_staging/

@@ -1,0 +1,66 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - master
+      - website
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master
+
+      - name: Checkout website
+        uses: actions/checkout@v4
+        with:
+          ref: website
+          path: website
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Init PaperMod submodule
+        working-directory: website
+        run: git submodule update --init --recursive
+
+      - name: Generate Hugo content
+        run: python3 master/scripts/generate_hugo_content.py --output website/content/problems
+
+      - name: Build site
+        working-directory: website
+        run: hugo --minify
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

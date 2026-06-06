@@ -1,0 +1,1019 @@
+- id: 1
+  slug: count-n-digit-primes
+  title_fa: تعداد اعداد اول n رقمی
+  title_en: Count N-Digit Primes
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/001-count-n-digit-primes
+  tags: [primes, counting, brute-force]
+
+- id: 2
+  slug: palindromic-price-sum
+  title_fa: مجموع قیمت‌های پالیندروم
+  title_en: Palindromic Price Sum
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/002-palindromic-price-sum
+  tags: [palindrome, summation]
+
+- id: 3
+  slug: amicable-numbers-check
+  title_fa: بررسی اعداد دوست
+  title_en: Amicable Numbers Check
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/003-amicable-numbers-check
+  tags: [divisors, number-theory]
+
+- id: 4
+  slug: speed-fine-factorial
+  title_fa: جریمه سرعت با فاکتوریل
+  title_en: Speed Fine Factorial
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/004-speed-fine-factorial
+  tags: [factorial, digits]
+
+- id: 5
+  slug: prime-factors-game
+  title_fa: بازی مجموع فاکتورهای اول
+  title_en: Prime Factors Sum Game
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/005-prime-factors-game
+  tags: [prime-factors, comparison]
+
+- id: 6
+  slug: reverse-first-n-digits
+  title_fa: معکوس کردن n رقم اول
+  title_en: Reverse First N Digits
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/006-reverse-first-n-digits
+  tags: [digits, reversal]
+
+- id: 7
+  slug: remove-digit-range
+  title_fa: حذف بازه‌ای از ارقام
+  title_en: Remove Digit Range
+  category: strings
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/007-remove-digit-range
+  tags: [digits, substring]
+
+- id: 8
+  slug: gcd-lcm-pair
+  title_fa: ب.م.م و ک.م.م دو عدد
+  title_en: GCD and LCM Pair
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/008-gcd-lcm-pair
+  tags: [gcd, lcm]
+
+- id: 9
+  slug: max-prime-digit-sum
+  title_fa: بیشترین مجموع ارقام اول
+  title_en: Max Prime Digit Sum
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/009-max-prime-digit-sum
+  tags: [primes, digit-sum]
+
+- id: 10
+  slug: reverse-n-digits-batch
+  title_fa: معکوس n رقم به n رقم
+  title_en: Reverse N Digits at a Time
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/010-reverse-n-digits-batch
+  tags: [digits, reversal]
+
+- id: 11
+  slug: binary-prime-check
+  title_fa: اول بودن در مبنای ۲
+  title_en: Binary Prime Check
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/011-binary-prime-check
+  tags: [binary, primes]
+
+- id: 12
+  slug: alexander-code-decrypt
+  title_fa: رمزگشایی کد اسکندر
+  title_en: Alexander Code Decrypt
+  category: crypto
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/012-alexander-code-decrypt
+  tags: [cipher, arrays]
+
+- id: 13
+  slug: m-reverse-number
+  title_fa: عدد m-reverse
+  title_en: M-Reverse Number
+  category: strings
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/013-m-reverse-number
+  tags: [digits, reversal]
+
+- id: 14
+  slug: amir-sequence-generator
+  title_fa: دنباله امیر
+  title_en: Amir Sequence Generator
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/014-amir-sequence-generator
+  tags: [sequence, simulation]
+
+- id: 15
+  slug: molana-hafez-substrings
+  title_fa: امتحان املا مولانا و حافظ
+  title_en: MOLANA HAFEZ Substrings
+  category: strings
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/10231/
+  path: problems/015-molana-hafez-substrings
+  tags: [substring, search]
+
+- id: 16
+  slug: four-number-statistics
+  title_fa: آمار چهار عدد
+  title_en: Four Number Statistics
+  category: arrays
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/3403/
+  path: problems/016-four-number-statistics
+  tags: [statistics, aggregation]
+
+- id: 17
+  slug: circular-primes-below-million
+  title_fa: اعداد اول دایره‌ای زیر یک میلیون
+  title_en: Circular Primes Below Million
+  category: math
+  difficulty: medium
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/017-circular-primes-below-million
+  tags: [primes, rotation]
+
+- id: 18
+  slug: digit-power-sum
+  title_fa: مجموع توان ارقام
+  title_en: Digit Power Sum
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/018-digit-power-sum
+  tags: [digits, powers]
+
+- id: 19
+  slug: dominating-number-check
+  title_fa: عدد غالب
+  title_en: Dominating Number Check
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/019-dominating-number-check
+  tags: [digits, frequency]
+
+- id: 20
+  slug: double-base-palindrome
+  title_fa: پالیندروم دو مبنایی
+  title_en: Double Base Palindrome
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/020-double-base-palindrome
+  tags: [palindrome, binary]
+
+- id: 21
+  slug: largest-pandigital-prime
+  title_fa: بزرگترین اول پاندجیجیت
+  title_en: Largest Pandigital Prime
+  category: math
+  difficulty: hard
+  language: python
+  source: custom
+  source_url: null
+  path: problems/021-largest-pandigital-prime
+  tags: [primes, permutation]
+
+- id: 22
+  slug: nearly-lucky-number
+  title_fa: عدد تقریبا خوش‌شانس
+  title_en: Nearly Lucky Number
+  category: strings
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/022-nearly-lucky-number
+  tags: [lucky-digits, counting]
+
+- id: 23
+  slug: thin-number-check
+  title_fa: عدد تنک
+  title_en: Thin Number Check
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/023-thin-number-check
+  tags: [digits, counting]
+
+- id: 24
+  slug: remove-odd-digits
+  title_fa: حذف ارقام فرد
+  title_en: Remove Odd Digits
+  category: strings
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/024-remove-odd-digits
+  tags: [digits, filtering]
+
+- id: 25
+  slug: count-even-digits
+  title_fa: شمارش ارقام زوج
+  title_en: Count Even Digits
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/025-count-even-digits
+  tags: [digits, counting]
+
+- id: 26
+  slug: corona-medicine-comparison
+  title_fa: مقایسه داروی کرونا
+  title_en: Corona Medicine Comparison
+  category: simulation
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/026-corona-medicine-comparison
+  tags: [comparison, arithmetic]
+
+- id: 27
+  slug: factorial-digit-count
+  title_fa: تعداد ارقام فاکتوریل
+  title_en: Factorial Digit Count
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/027-factorial-digit-count
+  tags: [factorial, digits]
+
+- id: 28
+  slug: prime-number-check
+  title_fa: بررسی عدد اول
+  title_en: Prime Number Check
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/028-prime-number-check
+  tags: [primes, divisibility]
+
+- id: 29
+  slug: common-class-students
+  title_fa: دانشجویان مشترک کلاس
+  title_en: Common Class Students
+  category: data-structures
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/029-common-class-students
+  tags: [sets, intersection]
+
+- id: 30
+  slug: wall-brick-remainder
+  title_fa: دیوارکشی با آجر
+  title_en: Wall Brick Remainder
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/030-wall-brick-remainder
+  tags: [modulo, geometry]
+
+- id: 31
+  slug: cinema-hall-capacity
+  title_fa: سینما برره
+  title_en: Cinema Hall Capacity
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/031-cinema-hall-capacity
+  tags: [gcd, capacity]
+
+- id: 32
+  slug: light-string-parity
+  title_fa: یکسان‌سازی ریسه لامپ
+  title_en: Light String Parity
+  category: graphs
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/032-light-string-parity
+  tags: [parity, bit-flip]
+
+- id: 33
+  slug: sum-even-numbers
+  title_fa: جمع اعداد زوج
+  title_en: Sum Even Numbers
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/033-sum-even-numbers
+  tags: [summation, optimization]
+
+- id: 34
+  slug: elevator-floor-calculation
+  title_fa: بالین
+  title_en: Elevator Floor Calculation
+  category: simulation
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/175292/
+  path: problems/034-elevator-floor-calculation
+  tags: [simulation, counting]
+
+- id: 35
+  slug: scream-count-answer
+  title_fa: جیغ زدن
+  title_en: Scream Count Answer
+  category: math
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/175187/
+  path: problems/035-scream-count-answer
+  tags: [logic, counting]
+
+- id: 36
+  slug: magic-trick-cards
+  title_fa: تردستی
+  title_en: Magic Trick Cards
+  category: simulation
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/175188/
+  path: problems/036-magic-trick-cards
+  tags: [binary, simulation]
+
+- id: 37
+  slug: notebook-page-sizes
+  title_fa: جزوه درسی
+  title_en: Notebook Page Sizes
+  category: math
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/175189/
+  path: problems/037-notebook-page-sizes
+  tags: [summation, partitioning]
+
+- id: 38
+  slug: anagram-word-grouping
+  title_fa: گروه‌بندی آناگرام
+  title_en: Anagram Word Grouping
+  category: strings
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/038-anagram-word-grouping
+  tags: [anagram, grouping]
+
+- id: 39
+  slug: find-missing-numbers
+  title_fa: اعداد رد شده
+  title_en: Find Missing Numbers
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/039-find-missing-numbers
+  tags: [gaps, sequences]
+
+- id: 40
+  slug: basic-calculator-operations
+  title_fa: ماشین حساب
+  title_en: Basic Calculator Operations
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/040-basic-calculator-operations
+  tags: [arithmetic, functions]
+
+- id: 41
+  slug: symmetric-list-check
+  title_fa: لیست متقارن
+  title_en: Symmetric List Check
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/041-symmetric-list-check
+  tags: [palindrome, validation]
+
+- id: 42
+  slug: fibonacci-recursive-sequence
+  title_fa: دنباله فیبوناچی بازگشتی
+  title_en: Fibonacci Recursive Sequence
+  category: dp
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/042-fibonacci-recursive-sequence
+  tags: [fibonacci, recursion]
+
+- id: 43
+  slug: max-consecutive-zeros
+  title_fa: خفن‌ترین هواداران
+  title_en: Max Consecutive Zeros
+  category: strings
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/176776/
+  path: problems/043-max-consecutive-zeros
+  tags: [binary-string, streak]
+
+- id: 44
+  slug: divisible-by-any-count
+  title_fa: چهارعدد
+  title_en: Divisible By Any Count
+  category: math
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/177663/
+  path: problems/044-divisible-by-any-count
+  tags: [divisibility, counting]
+
+- id: 45
+  slug: max-embezzlement-person
+  title_fa: اختلاس
+  title_en: Max Embezzlement Person
+  category: greedy
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/177664/
+  path: problems/045-max-embezzlement-person
+  tags: [max, comparison]
+
+- id: 46
+  slug: fibonacci-sequence-print
+  title_fa: چاپ دنباله فیبوناچی
+  title_en: Fibonacci Sequence Print
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/046-fibonacci-sequence-print
+  tags: [fibonacci, iteration]
+
+- id: 47
+  slug: elevator-floor-balin
+  title_fa: بالین
+  title_en: Elevator Floor Balin
+  category: simulation
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/175884/
+  path: problems/047-elevator-floor-balin
+  tags: [simulation, counting]
+
+- id: 48
+  slug: alternating-case-sort
+  title_fa: تَخَطّی‌گَری
+  title_en: Alternating Case Sort
+  category: sorting
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/129728/
+  path: problems/048-alternating-case-sort
+  tags: [sorting, strings]
+
+- id: 49
+  slug: progressive-tax-calculator
+  title_fa: مالیات پلکانی
+  title_en: Progressive Tax Calculator
+  category: math
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/6313/
+  path: problems/049-progressive-tax-calculator
+  tags: [tax, brackets]
+
+- id: 50
+  slug: key-maker-validation
+  title_fa: سازنده کلید
+  title_en: Key Maker Validation
+  category: greedy
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/6314/
+  path: problems/050-key-maker-validation
+  tags: [validation, comparison]
+
+- id: 51
+  slug: adjacent-char-removal
+  title_fa: ساده‌سازی رشته
+  title_en: Adjacent Char Removal
+  category: strings
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/177665/
+  path: problems/051-adjacent-char-removal
+  tags: [stack, reduction]
+
+- id: 52
+  slug: matrix-binary-conversion
+  title_fa: ماتریس به دودویی
+  title_en: Matrix Binary Conversion
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/052-matrix-binary-conversion
+  tags: [matrix, binary]
+
+- id: 53
+  slug: professor-h-index
+  title_fa: رده‌بندی اساتید
+  title_en: Professor H-Index
+  category: sorting
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/181333/
+  path: problems/053-professor-h-index
+  tags: [h-index, ranking]
+
+- id: 54
+  slug: knapsack-max-value
+  title_fa: مسئله کوله‌پشتی
+  title_en: Knapsack Max Value
+  category: dp
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/054-knapsack-max-value
+  tags: [knapsack, dynamic-programming]
+
+- id: 55
+  slug: circular-prime-check
+  title_fa: بررسی اول دایره‌ای
+  title_en: Circular Prime Check
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/055-circular-prime-check
+  tags: [primes, rotation]
+
+- id: 56
+  slug: circular-primes-range
+  title_fa: اعداد اول دایره‌ای در بازه
+  title_en: Circular Primes in Range
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/056-circular-primes-range
+  tags: [primes, range]
+
+- id: 57
+  slug: pigeon-nest-grid
+  title_fa: لانه کبوتری
+  title_en: Pigeon Nest Grid
+  category: math
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/187845/
+  path: problems/057-pigeon-nest-grid
+  tags: [grid, logic]
+
+- id: 58
+  slug: snake-number-grid
+  title_fa: مار در جدول
+  title_en: Snake Number Grid
+  category: simulation
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/187843/
+  path: problems/058-snake-number-grid
+  tags: [grid, snake-pattern]
+
+- id: 59
+  slug: generate-all-subsets
+  title_fa: همه زیرمجموعه‌ها
+  title_en: Generate All Subsets
+  category: combinatorics
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/12912/
+  path: problems/059-generate-all-subsets
+  tags: [subsets, power-set]
+
+- id: 60
+  slug: prime-check-sqrt
+  title_fa: اول بودن با O(√n)
+  title_en: Prime Check O Sqrt N
+  category: math
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/060-prime-check-sqrt
+  tags: [primes, optimization]
+
+- id: 61
+  slug: max-books-purchase
+  title_fa: خرید کتاب
+  title_en: Max Books Purchase
+  category: greedy
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/061-max-books-purchase
+  tags: [knapsack, greedy]
+
+- id: 62
+  slug: fibonacci-base-representation
+  title_fa: مبنای فیبوناچی
+  title_en: Fibonacci Base Representation
+  category: math
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/062-fibonacci-base-representation
+  tags: [fibonacci, representation]
+
+- id: 63
+  slug: too-many-same-employees
+  title_fa: کارمند زیادی
+  title_en: Too Many Same Employees
+  category: data-structures
+  difficulty: easy
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/10636/
+  path: problems/063-too-many-same-employees
+  tags: [hashmap, frequency]
+
+- id: 64
+  slug: set-size-queries
+  title_fa: کم‌یاب — شمارش اعضا
+  title_en: Set Size Queries
+  category: data-structures
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/064-set-size-queries
+  tags: [set, queries]
+
+- id: 65
+  slug: set-minimum-queries
+  title_fa: کم‌یاب — کوچکترین عضو
+  title_en: Set Minimum Queries
+  category: data-structures
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/065-set-minimum-queries
+  tags: [set, min-heap]
+
+- id: 66
+  slug: bubble-sort-algorithm
+  title_fa: مرتب‌سازی حبابی
+  title_en: Bubble Sort Algorithm
+  category: sorting
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/066-bubble-sort-algorithm
+  tags: [bubble-sort, sorting]
+
+- id: 67
+  slug: all-combinations-itertools
+  title_fa: ترکیب کلمات
+  title_en: All Combinations Itertools
+  category: combinatorics
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/067-all-combinations-itertools
+  tags: [combinations, itertools]
+
+- id: 68
+  slug: filter-by-limit-range
+  title_fa: الگوریتم محدودسازی
+  title_en: Filter By Limit Range
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/068-filter-by-limit-range
+  tags: [filtering, bounds]
+
+- id: 69
+  slug: most-frequent-elements
+  title_fa: الگوریتم Top-One
+  title_en: Most Frequent Elements
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/069-most-frequent-elements
+  tags: [frequency, mode]
+
+- id: 70
+  slug: caesar-cipher-menu
+  title_fa: رمزنگاری ژولیوس سزار
+  title_en: Caesar Cipher Menu
+  category: crypto
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/070-caesar-cipher-menu
+  tags: [caesar, cipher]
+
+- id: 71
+  slug: variable-shift-cipher
+  title_fa: سزار با شیفت متغیر
+  title_en: Variable Shift Cipher
+  category: crypto
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/071-variable-shift-cipher
+  tags: [caesar, cipher]
+
+- id: 72
+  slug: search-insert-position
+  title_fa: موقعیت درج در لیست
+  title_en: Search Insert Position
+  category: search
+  difficulty: easy
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/072-search-insert-position
+  tags: [binary-search, insertion]
+
+- id: 73
+  slug: isomorphic-strings-check
+  title_fa: رشته‌های هم‌ریخت
+  title_en: Isomorphic Strings Check
+  category: strings
+  difficulty: medium
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/073-isomorphic-strings-check
+  tags: [isomorphic, mapping]
+
+- id: 74
+  slug: a1z26-encode-decode
+  title_fa: رمزنگاری a1z26
+  title_en: A1Z26 Encode Decode
+  category: crypto
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/074-a1z26-encode-decode
+  tags: [encoding, alphabet]
+
+- id: 75
+  slug: bead-sort-algorithm
+  title_fa: مرتب‌سازی مهره‌ای
+  title_en: Bead Sort Algorithm
+  category: sorting
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/075-bead-sort-algorithm
+  tags: [bead-sort, sorting]
+
+- id: 76
+  slug: best-stock-profit
+  title_fa: خرید و فروش سهام
+  title_en: Best Stock Profit
+  category: greedy
+  difficulty: medium
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/076-best-stock-profit
+  tags: [stock, profit]
+
+- id: 77
+  slug: zigzag-merge-lists
+  title_fa: ادغام زیگزاگ دو لیست
+  title_en: Zigzag Merge Lists
+  category: arrays
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/077-zigzag-merge-lists
+  tags: [merge, interleaving]
+
+- id: 78
+  slug: one-time-pad-cipher
+  title_fa: رمزنگاری One-Time Pad
+  title_en: One-Time Pad Cipher
+  category: crypto
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/078-one-time-pad-cipher
+  tags: [xor, cipher]
+
+- id: 79
+  slug: two-sum-max-diff
+  title_fa: دو جمع با بیشترین تفاضل
+  title_en: Two Sum Max Diff
+  category: search
+  difficulty: medium
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/079-two-sum-max-diff
+  tags: [two-sum, pairs]
+
+- id: 80
+  slug: rotate-string-chars
+  title_fa: چرخش کاراکترهای رشته
+  title_en: Rotate String Chars
+  category: strings
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/080-rotate-string-chars
+  tags: [rotation, modulo]
+
+- id: 81
+  slug: search-sorted-range
+  title_fa: جستجوی بازه در لیست
+  title_en: Search Sorted Range
+  category: search
+  difficulty: medium
+  language: python
+  source: leetcode-style
+  source_url: null
+  path: problems/081-search-sorted-range
+  tags: [binary-search, range]
+
+- id: 82
+  slug: binary-linear-search-compare
+  title_fa: مقایسه جستجوی باینری و خطی
+  title_en: Binary Linear Search Compare
+  category: search
+  difficulty: easy
+  language: python
+  source: custom
+  source_url: null
+  path: problems/082-binary-linear-search-compare
+  tags: [binary-search, performance]
+
+- id: 83
+  slug: first-last-occurrence
+  title_fa: اولین و آخرین وقوع
+  title_en: First Last Occurrence
+  category: search
+  difficulty: medium
+  language: python
+  source: custom
+  source_url: null
+  path: problems/083-first-last-occurrence
+  tags: [binary-search, bounds]
+
+- id: 84
+  slug: heads-tails-game
+  title_fa: گل یا پوچ ساده
+  title_en: Heads Tails Game
+  category: simulation
+  difficulty: medium
+  language: python
+  source: quera
+  source_url: https://quera.org/problemset/253399
+  path: problems/084-heads-tails-game
+  tags: [game, simulation]
+
+- id: 85
+  slug: go-rot13-reader
+  title_fa: تمرین Reader در Go
+  title_en: Go ROT13 Reader
+  category: io
+  difficulty: easy
+  language: go
+  source: go-tour
+  source_url: https://go.dev/tour/methods/23
+  path: problems/085-go-rot13-reader
+  tags: [rot13, io-reader]
